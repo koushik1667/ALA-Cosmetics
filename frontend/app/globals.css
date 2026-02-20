@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-gloss text-ink antialiased;
+}
+
+.dark body {
+  @apply bg-ink text-white;
+}
+
+.gradient-card {
+  background: linear-gradient(145deg, rgba(249,220,227,.9), rgba(238,213,196,.9));
+}
